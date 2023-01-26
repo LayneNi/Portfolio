@@ -280,6 +280,9 @@ body {
   -o-border-radius: 5px;
 }
 
+.skillForm{
+  display: flex;
+}
 
 .neonText {
   font-size: 50px;
