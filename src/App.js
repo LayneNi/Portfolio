@@ -6,7 +6,9 @@ import MainCard from "./component/MainCard";
 
 
 function App() {
+  document.body.classList.add('background-color')
   return (
+
     <>
       <Header />
       <MainCard/>
