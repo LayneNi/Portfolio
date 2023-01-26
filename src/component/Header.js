@@ -12,6 +12,8 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import ProfilePic from '../images/profilePic.JPG'
+import LayneLogo from '../images/white_logo_transparent_background.png'
 import AdbIcon from '@mui/icons-material/Adb';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container1 from "react-bootstrap/Container";
@@ -48,6 +50,20 @@ function Header() {
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
+            <IconButton sx={{ p: 0 }}>
+            <Box
+        component="img"
+        sx={{
+          height: '50%',
+          width: '50%',
+          maxHeight: { xs: 233, md: 167 },
+          maxWidth: { xs: 350, md: 250 },
+        }}
+        alt="Layne Profile Picture"
+        src={LayneLogo}
+      />
+
+                </IconButton>
             <Typography
               variant="h6"
               noWrap
@@ -119,7 +135,7 @@ function Header() {
                 textDecoration: 'none',
               }}
             >
-              Layne Nigro
+
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (
@@ -136,7 +152,7 @@ function Header() {
             <Box sx={{ flexGrow: 0 }}>
               <Tooltip title="Options">
                 <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                  <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                  <Avatar alt="Layne Profile Picture" src={ProfilePic} />
                 </IconButton>
               </Tooltip>
               <Menu
