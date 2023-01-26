@@ -173,7 +173,7 @@ function Header() {
               >
                 {settings.map((setting) => (
                   <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                    <Typography textAlign="center">{setting}</Typography>
+                    <a href={"#" + setting}><Typography textAlign="center">{setting}</Typography></a>
                   </MenuItem>
                 ))}
               </Menu>
