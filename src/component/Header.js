@@ -102,7 +102,7 @@ function Header() {
                 ))}
               </Menu>
             </Box>
-            <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+            {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
             <Typography
               variant="h5"
               noWrap
@@ -119,7 +119,7 @@ function Header() {
                 textDecoration: 'none',
               }}
             >
-              LOGO
+              Layne Nigro
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (
