@@ -6,6 +6,54 @@ App{
   background-color: #000208;
 }
 
+.cards:hover {
+  box-shadow: 0 0 6px 6px rgb(192, 190, 190);
+}
+
+.cardBtns:hover {
+  box-shadow: 0 0 6px 6px rgb(192, 190, 190);
+}
+
+#skills{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.formSection{
+  background-color: white;
+    height: 315px;
+    width: 492px;
+    padding: 23px;
+    border-radius: 5px;
+    margin: 55px;
+}
+
+.formSection:hover {
+  box-shadow: 0 0 6px 6px rgb(192, 190, 190);
+}
+
+.messageSection{
+  height: fit-content;
+  width: 446px;
+  margin-top: 3px;
+
+}
+
+.textFeild{
+  margin:1px;
+}
+
+.skillText{
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .background-color{
   background-color: #282c34;
 }

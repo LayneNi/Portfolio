@@ -1,6 +1,7 @@
 import { GoMarkGithub, GoMailRead } from "react-icons/go";
 import { IconContext } from "react-icons";
 import { AiFillLinkedin, AiFillFileText } from "react-icons/ai";
+import IconButton from '@mui/material/IconButton';
 import * as React from 'react';
 
 
@@ -16,13 +17,15 @@ const handleOpenMail = (event) => {
         <footer>
         <div class="wrapper" id="neon" >
         <IconContext.Provider value={{ color: 'white', size: '40px' }}>
-        <GoMailRead 
-        anchorEl={anchorElNav}
-        onClick={handleOpenMail}
-        />
+        <IconButton href="https://www.google.com" sx={{ p: 0 }}>
+        <GoMailRead />
+        </IconButton>
         </IconContext.Provider>
         <IconContext.Provider value={{ color: 'white', size: '40px'}}>
+        <IconButton href="https://www.google.com" sx={{ p: 0 }}>
         <AiFillFileText/>
+        </IconButton>
+        
         </IconContext.Provider>
     <div class="main-div main-div1">
       <h1>Layne</h1>
@@ -34,10 +37,16 @@ const handleOpenMail = (event) => {
       <h1>Portfolio</h1>
     </div>
     <IconContext.Provider value={{ color: 'white', size: '40px' }}>
+    <IconButton href="https://github.com/LayneNi" sx={{ p: 0 }}>
     <GoMarkGithub/>
+        </IconButton>
+    
     </IconContext.Provider>
     <IconContext.Provider value={{ color: 'white', size: '40px' }}>
+    <IconButton href="https://www.linkedin.com/in/layne-nigro-b91184255/" sx={{ p: 0 }}>
     <AiFillLinkedin/>
+        </IconButton>
+    
     </IconContext.Provider>
   </div>
   

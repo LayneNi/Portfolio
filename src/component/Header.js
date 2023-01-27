@@ -22,7 +22,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 const pages = ['LinkedIn', 'Github', 'Resumè'];
-const settings = ['About Me', 'Skills', 'Contact Me'];
+const settings = ['About Me', 'Skills', 'Contact Me', 'Projects'];
 
 
 function Header() {
@@ -46,7 +46,10 @@ function Header() {
   
     return (
       <>
-      <AppBar position="static" style={{ background: '#2E3B55' }}>
+      <AppBar position="static" style={{ 
+        background: '#2E3B55',
+        padding: 10,
+    }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -73,6 +76,9 @@ function Header() {
                 mr: 2,
                 display: { xs: 'none', md: 'flex' },
                 fontFamily: 'monospace',
+                fontSize: 30,
+                // marginLeft: 5,
+                marginRight: 5,
                 fontWeight: 700,
                 letterSpacing: '.3rem',
                 color: 'inherit',
@@ -113,7 +119,7 @@ function Header() {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                    <Typography  textAlign="center">{page}</Typography>
                   </MenuItem>
                 ))}
               </Menu>

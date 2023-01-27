@@ -37,60 +37,7 @@ function MainCard() {
 
     <ProjectContainer/>
  
-    <div id="Skills" class= "skillForm">
-    <Box 
-    border={1} borderColor="white" borderRadius="10px"
-    display="flex" justifyContent="center" alignItems="center"
-    fontSize={24}
-      sx={{
-        width: '50%',
-        marginTop: 1,
-        marginLeft: 5,
-        marginRight: .5,
-        height: 400,
-        backgroundColor: '#2E3B55',
-        '&:hover': {
-          backgroundColor: '#2E3B55',
-          fontSize:26,
-          boxShadow: 5,
-        },
-        
-      }}
-    >
-<Typography class= "neonText"
-    color= "White"
-    marginBottom={30}
-    > <h1>This is my skills section</h1>
-</Typography>
-    </Box>
-    <Box id="Contact Me" 
-    border={1} borderColor="white" borderRadius="10px"
-    display="flex" justifyContent="center" alignItems="center"
-    fontSize={24}
-      sx={{
-        width: '50%',
-        marginTop: 1,
-        marginLeft: .5,
-        marginRight: 5,
-        height: 400,
-        backgroundColor: '#2E3B55',
-        float:'right',
-        displayFlex: 'inline',
-        '&:hover': {
-          backgroundColor: '#2E3B55',
-          fontSize:26,
-          boxShadow: 5,
-        },
-        
-      }}
-    >
-<Typography class= "neonText"
-    color= "White"
-    marginBottom={30}
-    > <h1>This is my form section</h1>
-</Typography>
-    </Box>
-    </div>
+
       </>
     );
   }
