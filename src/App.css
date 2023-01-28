@@ -751,3 +751,16 @@ body {
     width: 50%;
   }
 }
+
+@media screen and (max-width:1427px) {
+  .contactMeQuery
+  .skillSection{
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    order: 2;
+  }
+
+
+
+}

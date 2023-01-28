@@ -13,7 +13,7 @@ function Project({title, description, tools, link, repo,image}) {
   return (
 
     <>
-    <Card id='projects' className='cards' sx={{ 
+    <Card id='Projects' className='cards' sx={{ 
     maxWidth: 450,
     width: 350,
     height: 600,

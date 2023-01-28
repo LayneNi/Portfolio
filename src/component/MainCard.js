@@ -9,7 +9,7 @@ function MainCard() {
 
     return (
       <>
-    <Box 
+    <Box id="About Me"
     border={1} borderColor="white" borderRadius="10px"
     display="flex" justifyContent="center" alignItems="center"
     fontSize={24}
@@ -28,7 +28,7 @@ function MainCard() {
         
       }}
     >
-<Typography class= "neonText"
+<Typography  class= "neonText"
     color= "White"
     marginBottom={30}
     > <h1>My name is Layne Nigro and I am a highly motivated fullstack web developer. I have a passion for functional design and I love working with computers.</h1>

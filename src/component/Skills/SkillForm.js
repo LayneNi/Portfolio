@@ -30,6 +30,7 @@ function SkillForm() {
       <div class="skillForm">
         <Box
           id="Skills"
+          className="skillSection"
           border={1}
           borderColor="white"
           borderRadius="10px"
@@ -143,6 +144,7 @@ function SkillForm() {
         </Box>
         <Box
           id="Contact Me"
+          className="conactMeQuery"
           border={1}
           borderColor="white"
           borderRadius="10px"
