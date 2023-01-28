@@ -17,7 +17,7 @@ const handleOpenMail = (event) => {
         <footer>
         <div class="wrapper" id="neon" >
         <IconContext.Provider value={{ color: 'white', size: '40px' }}>
-        <IconButton href="https://www.google.com" sx={{ p: 0 }}>
+        <IconButton href="mailto:laynenigro@gmail.com" sx={{ p: 0 }}>
         <GoMailRead />
         </IconButton>
         </IconContext.Provider>

@@ -6,9 +6,16 @@ App{
   background-color: #000208;
 }
 
+#submitButton:hover {
+  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.548);
+}
 
+#submitButton:active {
+  font-size: 50%;
+  box-shadow: 0 0 10px #000 inset;
+}
 
-.field {
+/* .field {
   margin-bottom: 10px;
 }
 
@@ -23,7 +30,7 @@ App{
   min-width: 250px;
   line-height: 1.5;
   font-size: 14px;
-}
+} */
 
 input[type="submit"] {
   display: block;
@@ -52,14 +59,6 @@ input[type="submit"] {
   justify-content: center;
 }
 
-.formSection{
-  background-color: white;
-    height: 315px;
-    width: 492px;
-    padding: 23px;
-    border-radius: 5px;
-    margin: 55px;
-}
 
 .formSection:hover {
   box-shadow: 0 0 6px 6px rgb(192, 190, 190);
@@ -76,12 +75,15 @@ input[type="submit"] {
   margin:1px;
 }
 
+#contactMeText{
+  max-height: 450px;
+}
 .skillText{
   color: white;
   font-weight: bold;
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   margin: 30px;
 }
@@ -123,10 +125,31 @@ Footer{
 }
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
+.formSection{
+  background-color: white;
+    height:550px;
+    width: 492px;
+    /* padding: 23px; */
+    border-radius: 5px;
+    margin-top: 560px;
+    margin-bottom: 560px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+#formInterior{
+  margin: 80px;
+  max-height: 375px;
+}
+
+#messageBox{
+  max-height: 200px;
+}
+
 .neonText {
-  font-size: calc(20px + 18vh);
-  color: #0f0;
-  line-height: calc(20px + 20vh);
+  /* font-size: calc(20px + 18vh); */
+  /* color: #0f0; */
+  /* line-height: calc(20px + 20vh); */
 /*   text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
     0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
   color: #fccaff; */
@@ -136,6 +159,18 @@ Footer{
   text-align: center;
   animation: blink 12s infinite;
   -webkit-animation: blink 12s infinite;
+  font-size: 50px;
+  margin-bottom: 10;
+  position: relative;
+  z-index: 3;
+  padding: 20px;
+  /* background-color: #2E3B55; */
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 
@@ -364,20 +399,6 @@ body {
   display: flex;
 }
 
-.neonText {
-  font-size: 50px;
-  margin: 0;
-  position: relative;
-  z-index: 3;
-  padding: 20px;
-  background-color: #2E3B55;
-  color: #fff;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-}
 
 
 @-webkit-keyframes yellow-shadow {
