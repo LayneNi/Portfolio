@@ -22,7 +22,7 @@ const handleOpenMail = (event) => {
         </IconButton>
         </IconContext.Provider>
         <IconContext.Provider value={{ color: 'white', size: '40px'}}>
-        <IconButton className="iconHover" href="https://docs.google.com/document/d/1yV8Z4xKYEzO3cPVEFVLJoS2O0s37YfDHbRHhYQRGV0g/edit?usp=sharing" sx={{ p: 0 }}>
+        <IconButton className="iconHover" href="https://drive.google.com/file/d/1sCKVoXcXd3sRbMiSe8Vx6Bsv9rcYdxUU/view?usp=sharing" sx={{ p: 0 }}>
         <AiFillFileText/>
         </IconButton>
         

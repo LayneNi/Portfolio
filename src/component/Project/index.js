@@ -51,7 +51,7 @@ function ProjectContainer() {
   tools: "HTML, CSS, JavaScript",
   link: "https://layneni.github.io/quiz-challenge/",
   repo: "https://github.com/LayneNi/quiz-challenge",
-  image:require("../../images/white_logo_transparent_background.png")
+  image:require("../../images/Pokemon-Quiz-Screenshot.png")
 },
     ]
 
