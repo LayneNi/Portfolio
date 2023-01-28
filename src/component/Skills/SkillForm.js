@@ -58,21 +58,21 @@ function SkillForm() {
           <Typography
             display={"flex"}
             margin="5"
-            className="skillText"
+            className="skillTextSection"
             color="White"
             marginBottom={0}
             sx={{
               padding: 5,
             }}
           >
-            <Typography>
+            <Typography >
               <IconContext.Provider value={{ color: "white", size: "40px" }}>
-                <IconButton
+                <IconButton 
                   href="https://developer.mozilla.org/en-US/docs/Web/HTML"
                   sx={{ p: 0 }}
                 >
-                  <AiFillHtml5 />
-                  <h3 class="skillText">HTML</h3>
+                  <AiFillHtml5 className="iconHover"/>
+                  <h3  class="skillText">HTML</h3>
                 </IconButton>
               </IconContext.Provider>
             </Typography>
@@ -83,7 +83,7 @@ function SkillForm() {
                   href="https://developer.mozilla.org/en-US/docs/Web/CSS"
                   sx={{ p: 0 }}
                 >
-                  <DiCss3 />
+                  <DiCss3 className="iconHover"/>
                   <h3 class="skillText">CSS</h3>
                 </IconButton>
               </IconContext.Provider>
@@ -95,7 +95,7 @@ function SkillForm() {
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   sx={{ p: 0 }}
                 >
-                  <SiJavascript />
+                  <SiJavascript className="iconHover"/>
                   <h3 class="skillText">JavaScript</h3>
                 </IconButton>
               </IconContext.Provider>
@@ -107,7 +107,7 @@ function SkillForm() {
                   href="https://developer.mozilla.org/en-US/docs/Web/API/Node"
                   sx={{ p: 0 }}
                 >
-                  <FaNodeJs />
+                  <FaNodeJs className="iconHover"/>
                   <h3 class="skillText">NodeJs</h3>
                 </IconButton>
               </IconContext.Provider>
@@ -119,7 +119,7 @@ function SkillForm() {
                   href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
                   sx={{ p: 0 }}
                 >
-                  <FaNodeJs />
+                  <FaNodeJs className="iconHover"/>
                   <h3 class="skillText">ExpressJs</h3>
                 </IconButton>
               </IconContext.Provider>
@@ -131,7 +131,7 @@ function SkillForm() {
                   href="https://dev.mysql.com/doc/"
                   sx={{ p: 0 }}
                 >
-                  <SiMysql />
+                  <SiMysql className="iconHover"/>
                   <h3 class="skillText">MySql</h3>
                 </IconButton>
               </IconContext.Provider>

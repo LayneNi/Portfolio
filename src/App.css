@@ -41,8 +41,14 @@ input[type="submit"] {
   border: none
 }
 
+.skillText:hover {
+  box-shadow: 0 0 6px 6px #ffa500;
+}
 
-
+.iconHover:hover {
+  box-shadow: 0 0 6px 6px #ffa500;
+  border-radius: 10%;
+}
 
 .cards:hover {
   box-shadow: 0 0 6px 6px rgb(192, 190, 190);
@@ -79,6 +85,17 @@ input[type="submit"] {
   max-height: 450px;
 }
 .skillText{
+  color: white;
+  font-weight: bold;
+  /* display: flex; */
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  border-radius: 10%;
+}
+
+.skillTextSection{
   color: white;
   font-weight: bold;
   /* display: flex; */

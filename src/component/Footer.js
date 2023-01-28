@@ -17,12 +17,12 @@ const handleOpenMail = (event) => {
         <footer>
         <div class="wrapper" id="neon" >
         <IconContext.Provider value={{ color: 'white', size: '40px' }}>
-        <IconButton href="mailto:laynenigro@gmail.com" sx={{ p: 0 }}>
+        <IconButton className="iconHover" href="mailto:laynenigro@gmail.com" sx={{ p: 0 }}>
         <GoMailRead />
         </IconButton>
         </IconContext.Provider>
         <IconContext.Provider value={{ color: 'white', size: '40px'}}>
-        <IconButton href="https://www.google.com" sx={{ p: 0 }}>
+        <IconButton className="iconHover" href="https://docs.google.com/document/d/1yV8Z4xKYEzO3cPVEFVLJoS2O0s37YfDHbRHhYQRGV0g/edit?usp=sharing" sx={{ p: 0 }}>
         <AiFillFileText/>
         </IconButton>
         
@@ -37,13 +37,13 @@ const handleOpenMail = (event) => {
       <h1>Portfolio</h1>
     </div>
     <IconContext.Provider value={{ color: 'white', size: '40px' }}>
-    <IconButton href="https://github.com/LayneNi" sx={{ p: 0 }}>
+    <IconButton className="iconHover" href="https://github.com/LayneNi" sx={{ p: 0 }}>
     <GoMarkGithub/>
         </IconButton>
     
     </IconContext.Provider>
     <IconContext.Provider value={{ color: 'white', size: '40px' }}>
-    <IconButton href="https://www.linkedin.com/in/layne-nigro-b91184255/" sx={{ p: 0 }}>
+    <IconButton className="iconHover" href="https://www.linkedin.com/in/layne-nigro-b91184255/" sx={{ p: 0 }}>
     <AiFillLinkedin/>
         </IconButton>
     
