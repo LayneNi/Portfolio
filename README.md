@@ -18,7 +18,7 @@ This is my portfolio page, created in React with the assistance of Material-ui s
 
 Screenshot: ![Demo screenshot](./src/images/portfolio-screenshot-1.PNG)
 
-Deployed Link:
+Deployed Link: (https://layneni.github.io/portfolio/)
 
 
 ## Credits
