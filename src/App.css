@@ -6,6 +6,10 @@ App{
   background-color: #000208;
 }
 
+#cardText{
+  font-size: 14px;
+}
+
 #submitButton:hover {
   box-shadow: 0 0 6px 6px #ffa500;
   /* filter: drop-shadow(1px 1px 1px #ffa500); */

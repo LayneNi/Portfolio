@@ -30,27 +30,27 @@ function ProjectContainer() {
         image:require("../../images/Disney-screenshot-3.PNG")
     },
     {
-      title: "Project 3",
-      description: "While this application proved to be very challenging, my group was incredible at communicating and staying consistent. We were so proud of the finished product.",
-      tools: "add tools",
-      link: "https://www.google.com",
-      repo: "Www.github.com",
-      image:require("../../images/white_logo_transparent_background.png")
+      title: "Weather Api",
+      description: "Creating this application was very challenging when I first started it. Despite having learned a lot since its creation that would streamlined the development process quite a bit, I am still very impressed by what i was able to create with the knowledge i had at the time. ",
+      tools: "HTML, CSS, JavaScript",
+      link: "https://layneni.github.io/Weather-API-Challenge/",
+      repo: "https://github.com/LayneNi/Weather-API-Challenge",
+      image:require("../../images/Weather-Dashboard-Screenshot.PNG")
   },
   {
-    title: "Project 4",
-    description: "While this application proved to be very challenging, my group was incredible at communicating and staying consistent. We were so proud of the finished product.",
-    tools: "add tools",
-    link: "https://www.google.com",
-    repo: "Www.github.com",
-    image:require("../../images/white_logo_transparent_background.png")
+    title: "Team Profile Generator",
+    description: "I created this project while first learning NodeJs and i had a blast creating it. The process of creating a web page dynamically based on data inputed in the form of answers to specific questions was very interesting. This application helped me understand how limitless the potential of web design is. This is a backend web app and therefore has a video walkthrough link instead of a live deployment.",
+    tools: "HTML, CSS, JavaScript, NodeJs",
+    link: "https://drive.google.com/file/d/1Rj59TGVcLgemtH40CkBHlVdJ5C8-xO8k/view",
+    repo: "https://github.com/LayneNi/Team-Profile-Generator",
+    image:require("../../images/Team-profile-builder-screenshot.PNG")
 },
 {
-  title: "Project 5",
-  description: "While this application proved to be very challenging, my group was incredible at communicating and staying consistent. We were so proud of the finished product.",
-  tools: "add tools",
-  link: "https://www.google.com",
-  repo: "Www.github.com",
+  title: "Pokemon Quiz",
+  description: "This was my first gamified web application that I ever created. This project seems so simple looking back on it but I still feel it is worth showing what I was able to create at the time. There are several moving parts to this app and they worked together seemlessly. This always was my first time implicating local storage to an app and it was very fun to be able to save players high scores. The processes used to create this app have proven to be very useful in applications I have created since then. ",
+  tools: "HTML, CSS, JavaScript",
+  link: "https://layneni.github.io/quiz-challenge/",
+  repo: "https://github.com/LayneNi/quiz-challenge",
   image:require("../../images/white_logo_transparent_background.png")
 },
     ]

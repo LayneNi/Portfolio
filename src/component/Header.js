@@ -22,7 +22,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
 const pages = ['LinkedIn', 'Github', 'Resumè'];
-const settings = ['About Me', 'Skills', 'Contact Me', 'Projects'];
+const settings = ['About Me', 'Projects', 'Skills', 'Contact Me'];
 
 
 function Header() {
@@ -119,6 +119,7 @@ function Header() {
               >
                 {pages.map((page) => (
                   <MenuItem key={page} onClick={handleCloseNavMenu}>
+                    
                     <Typography  textAlign="center">{page}</Typography>
                   </MenuItem>
                 ))}

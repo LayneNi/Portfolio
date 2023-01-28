@@ -16,7 +16,7 @@ function Project({title, description, tools, link, repo,image}) {
     <Card id='projects' className='cards' sx={{ 
     maxWidth: 450,
     width: 350,
-    height: 400,
+    height: 600,
     margin: 10,
     backgroundColor: '#13151a',
     color: 'white'
@@ -30,13 +30,15 @@ function Project({title, description, tools, link, repo,image}) {
         image={image}
         title="green iguana"
       />
-      <CardContent>
+      <CardContent >
         <Typography gutterBottom variant="h5" component="div">
           {title}
         </Typography>
         <Typography variant="body2" color="white">
           {description}
-           Tools:{tools}
+          <Typography id="cardText">
+           Tools Used: {tools}
+           </Typography>
         </Typography>
       </CardContent>
       <CardActions 
