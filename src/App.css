@@ -7,11 +7,13 @@ App{
 }
 
 #submitButton:hover {
-  box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.548);
+  box-shadow: 0 0 6px 6px #ffa500;
+  /* filter: drop-shadow(1px 1px 1px #ffa500); */
 }
 
 #submitButton:active {
   font-size: 50%;
+  background-color: #37548f;
   box-shadow: 0 0 10px #000 inset;
 }
 
@@ -36,17 +38,19 @@ input[type="submit"] {
   display: block;
   padding: 6px 30px;
   font-size: 14px;
-  background-color: #4460AA;
+  background-color: #2E3B55;
   color: #fff;
   border: none
 }
 
 .skillText:hover {
-  box-shadow: 0 0 6px 6px #ffa500;
+  /* box-shadow: 0 0 6px 6px #ffa500; */
+  filter: drop-shadow(2px 2px 5px #ffa500);
 }
 
 .iconHover:hover {
-  box-shadow: 0 0 6px 6px #ffa500;
+  text-shadow: 0 0 6px 6px #ffa500;
+  filter: drop-shadow(1px 1px 1px #ffa500);
   border-radius: 10%;
 }
 
