@@ -24,7 +24,109 @@ function replaceWithBr2() {
   return haiku2.replace(/\n/g, "<br />");
 }
 
+// function getIcon(iconText){
+//   switch (iconText) {
+//     case "HTML5":
+//       return <AiFillHtml5 className="iconHover" />
+//     case "CSS":
+//       return <DiCss3 className="iconHover" />
+    
+//     default:
+//         <SiMysql className="iconHover" />
+//       break;
+//   }
+// }
+
 function SkillForm() {
+
+  // <Typography>
+  //             <IconContext.Provider value={{ color: "white", size: "40px" }}>
+  //               <IconButton
+  //                 href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+  //                 sx={{ p: 0 }}
+  //               >
+  //                 <DiCss3 className="iconHover" />
+  //                 <h3 class="skillText">CSS</h3>
+  //               </IconButton>
+  //             </IconContext.Provider>
+  //           </Typography>
+
+  //           <Typography>
+  //             <IconContext.Provider value={{ color: "white", size: "40px" }}>
+  //               <IconButton
+  //                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  //                 sx={{ p: 0 }}
+  //               >
+  //                 <SiJavascript className="iconHover" />
+  //                 <h3 class="skillText">JavaScript</h3>
+  //               </IconButton>
+  //             </IconContext.Provider>
+  //           </Typography>
+
+  //           <Typography>
+  //             <IconContext.Provider value={{ color: "white", size: "40px" }}>
+  //               <IconButton
+  //                 href="https://developer.mozilla.org/en-US/docs/Web/API/Node"
+  //                 sx={{ p: 0 }}
+  //               >
+  //                 <FaNodeJs className="iconHover" />
+  //                 <h3 class="skillText">NodeJs</h3>
+  //               </IconButton>
+  //             </IconContext.Provider>
+  //           </Typography>
+
+  //           <Typography>
+  //             <IconContext.Provider value={{ color: "white", size: "40px" }}>
+  //               <IconButton
+  //                 href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
+  //                 sx={{ p: 0 }}
+  //               >
+  //                 <FaNodeJs className="iconHover" />
+  //                 <h3 class="skillText">ExpressJs</h3>
+  //               </IconButton>
+  //             </IconContext.Provider>
+  //           </Typography>
+
+  //           <Typography>
+  //             <IconContext.Provider value={{ color: "white", size: "40px" }}>
+  //               <IconButton href="https://dev.mysql.com/doc/" sx={{ p: 0 }}>
+  //                 <SiMysql className="iconHover" />
+  //                 <h3 class="skillText">MySql</h3>
+  //               </IconButton>
+  //             </IconContext.Provider>
+  //           </Typography>
+  const skillsArr = [
+    {
+      text: "HTML5",
+      link: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      icon: <AiFillHtml5 className="iconHover" />
+    },
+    {
+      text: "CSS",
+      link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      icon: <DiCss3 className="iconHover" />
+    },
+    {
+      text: "JavaScript",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      icon: <SiJavascript className="iconHover" />
+    },
+    {
+      text: "NodeJS",
+      link: "https://developer.mozilla.org/en-US/docs/Web/API/Node",
+      icon: <FaNodeJs className="iconHover" />
+    },
+    {
+      text: "Express",
+      link: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
+      icon: <FaNodeJs className="iconHover" />
+    },
+    {
+      text: "MySQL",
+      link: "https://dev.mysql.com/doc/",
+      icon: <SiMysql className="iconHover" />
+    },
+  ];
   return (
     <>
       <div class="skillForm">
@@ -43,6 +145,7 @@ function SkillForm() {
             marginTop: 1,
             marginLeft: 5,
             marginRight: 0.5,
+            flexDirection: "column",
             height: 600,
             backgroundColor: "#2E3B55",
             "&:hover": {
@@ -52,99 +155,38 @@ function SkillForm() {
             },
           }}
         >
-          <Typography class="neonText" color="White" marginBottom={30}>
-            {" "}
+          <Typography class="neonText" color="White" >
             <h1>Skills</h1>
           </Typography>
           <Typography
             display={"flex"}
-            margin="5"
+            margin="0"
             className="skillTextSection"
             color="White"
             marginBottom={0}
             sx={{
-              padding: 5,
+              px: 1
             }}
           >
-            <Typography >
-              <IconContext.Provider value={{ color: "white", size: "40px" }}>
-                <IconButton 
-                  href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-                  sx={{ p: 0 }}
-                >
-                  <AiFillHtml5 className="iconHover"/>
-                  <h3  class="skillText">HTML</h3>
-                </IconButton>
-              </IconContext.Provider>
-            </Typography>
-
-            <Typography>
+            {skillsArr.map(skill => {
+              return <Typography>
               <IconContext.Provider value={{ color: "white", size: "40px" }}>
                 <IconButton
-                  href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  href={skill.link}
                   sx={{ p: 0 }}
                 >
-                  <DiCss3 className="iconHover"/>
-                  <h3 class="skillText">CSS</h3>
+                  {skill.icon}
+                  {/* {() => getIcon(skill.text)} */}
+                  <h3 class="skillText">{skill.text}</h3>
                 </IconButton>
               </IconContext.Provider>
             </Typography>
-
-            <Typography>
-              <IconContext.Provider value={{ color: "white", size: "40px" }}>
-                <IconButton
-                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                  sx={{ p: 0 }}
-                >
-                  <SiJavascript className="iconHover"/>
-                  <h3 class="skillText">JavaScript</h3>
-                </IconButton>
-              </IconContext.Provider>
-            </Typography>
-
-            <Typography>
-              <IconContext.Provider value={{ color: "white", size: "40px" }}>
-                <IconButton
-                  href="https://developer.mozilla.org/en-US/docs/Web/API/Node"
-                  sx={{ p: 0 }}
-                >
-                  <FaNodeJs className="iconHover"/>
-                  <h3 class="skillText">NodeJs</h3>
-                </IconButton>
-              </IconContext.Provider>
-            </Typography>
-
-            <Typography>
-              <IconContext.Provider value={{ color: "white", size: "40px" }}>
-                <IconButton
-                  href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs"
-                  sx={{ p: 0 }}
-                >
-                  <FaNodeJs className="iconHover"/>
-                  <h3 class="skillText">ExpressJs</h3>
-                </IconButton>
-              </IconContext.Provider>
-            </Typography>
-
-            <Typography>
-              <IconContext.Provider value={{ color: "white", size: "40px" }}>
-                <IconButton
-                  href="https://dev.mysql.com/doc/"
-                  sx={{ p: 0 }}
-                >
-                  <SiMysql className="iconHover"/>
-                  <h3 class="skillText">MySql</h3>
-                </IconButton>
-              </IconContext.Provider>
-            </Typography>
-
-            
-
+            })}
           </Typography>
         </Box>
         <Box
-          id="Contact Me"
-          className="conactMeQuery"
+          id="Skills"
+          className="skillSection"
           border={1}
           borderColor="white"
           borderRadius="10px"
@@ -155,12 +197,11 @@ function SkillForm() {
           sx={{
             width: "50%",
             marginTop: 1,
-            marginLeft: 0.5,
-            marginRight: 5,
+            marginLeft: 5,
+            marginRight: 0.5,
+            flexDirection: "column",
             height: 600,
             backgroundColor: "#2E3B55",
-            float: "right",
-            displayFlex: "inline",
             "&:hover": {
               backgroundColor: "#2E3B55",
               fontSize: 26,
@@ -168,17 +209,16 @@ function SkillForm() {
             },
           }}
         >
-          <Typography
+            <Typography
             class="neonText"
             id="contactMeText"
             color="White"
             marginBottom={30}
           >
-            {" "}
             Contact Me
           </Typography>
-          <div className="formSection">
-            <ContactUs />
+          <div  className="formSection">
+          <ContactUs/>
           </div>
         </Box>
       </div>
@@ -193,6 +233,48 @@ function SkillForm() {
       <script type="text/javascript">emailjs.init('Zr22jefdTB8t3hG2u')</script>
     </>
   );
+}
+
+{
+  /* <Box
+id="Contact Me"
+className="conactMeQuery"
+border={1}
+borderColor="white"
+borderRadius="10px"
+display="flex"
+justifyContent="center"
+alignItems="center"
+fontSize={24}
+sx={{
+  width: "50%",
+  marginTop: 1,
+  marginLeft: 0.5,
+  marginRight: 5,
+  height: 600,
+  backgroundColor: "#2E3B55",
+  float: "right",
+  displayFlex: "inline",
+  "&:hover": {
+    backgroundColor: "#2E3B55",
+    fontSize: 26,
+    boxShadow: 5,
+  },
+}}
+>
+<Typography
+  class="neonText"
+  id="contactMeText"
+  color="White"
+  marginBottom={30}
+>
+  {" "}
+  Contact Me
+</Typography>
+<div className="formSection">
+  <ContactUs />
+</div>
+</Box> */
 }
 
 export default SkillForm;

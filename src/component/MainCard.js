@@ -17,7 +17,7 @@ function MainCard() {
         width: '100',
         marginTop: 1,
         marginLeft: 5,
-        marginRight: 5,
+        // marginRight: 5,
         height: 300,
         backgroundColor: '#2E3B55',
         '&:hover': {

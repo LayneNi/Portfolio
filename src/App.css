@@ -21,6 +21,28 @@ App{
   box-shadow: 0 0 10px #000 inset;
 }
 
+.example{
+  background-color: white;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.example > div {
+  border: #f00 solid 2px;
+  width: 45%;
+}
+
+@media screen and (max-width: 500px) {
+  .example{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .example >div {
+    width: 90%
+  }
+}
 /* .field {
   margin-bottom: 10px;
 }
@@ -156,10 +178,10 @@ Footer{
     width: 492px;
     /* padding: 23px; */
     border-radius: 5px;
-    margin-top: 560px;
+    /* margin-top: 560px;
     margin-bottom: 560px;
     margin-right: 60px;
-    margin-left: 60px;
+    margin-left: 60px; */
 }
 
 #formInterior{
@@ -185,10 +207,10 @@ Footer{
   animation: blink 12s infinite;
   -webkit-animation: blink 12s infinite;
   font-size: 50px;
-  margin-bottom: 10;
+  /* margin-bottom: 10; */
   position: relative;
   z-index: 3;
-  padding: 20px;
+  /* padding: 20px; */
   /* background-color: #2E3B55; */
   color: #fff;
   border-radius: 5px;
@@ -422,7 +444,12 @@ body {
 
 .skillForm{
   display: flex;
+
+  @media screen and (max-width:600px) {
+    flex-direction: column
+  }
 }
+
 
 
 

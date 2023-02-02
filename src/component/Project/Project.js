@@ -16,7 +16,7 @@ function Project({title, description, tools, link, repo,image}) {
     <Card id='Projects' className='cards' sx={{ 
     maxWidth: 450,
     width: 350,
-    height: 600,
+    minHeight: 600 ,
     margin: 10,
     backgroundColor: '#13151a',
     color: 'white'
