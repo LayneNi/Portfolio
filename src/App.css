@@ -172,22 +172,24 @@ Footer{
 }
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
-.formSection{
+/* .formSection{
   background-color: white;
     height:550px;
     width: 492px;
-    /* padding: 23px; */
+    padding: 23px;
     border-radius: 5px;
-    /* margin-top: 560px;
+    margin-top: 560px;
     margin-bottom: 560px;
     margin-right: 60px;
-    margin-left: 60px; */
+    margin-left: 60px;
 }
 
 #formInterior{
   margin: 80px;
   max-height: 375px;
-}
+} */
+
+
 
 #messageBox{
   max-height: 200px;
@@ -445,11 +447,25 @@ body {
 .skillForm{
   display: flex;
 
-  @media screen and (max-width:600px) {
-    flex-direction: column
-  }
 }
 
+@media screen and (max-width:600px) {
+  .skillForm{
+    flex-direction: column;
+   align-items: center
+  }
+  
+  .toolbar > .icon-btn{
+    order: 2
+  }
+  .toolbar > .toolbar-box{
+    order: 1;
+    width: 25%;
+  }
+  .toolbar > .toolbar-avatar{
+    order: 3
+  }
+}
 
 
 

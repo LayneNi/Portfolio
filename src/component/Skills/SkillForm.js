@@ -129,7 +129,7 @@ function SkillForm() {
   ];
   return (
     <>
-      <div class="skillForm">
+      <div className="skillForm">
         <Box
           id="Skills"
           className="skillSection"
@@ -141,9 +141,9 @@ function SkillForm() {
           alignItems="center"
           fontSize={24}
           sx={{
-            width: "50%",
+            width: "100%",
             marginTop: 1,
-            marginLeft: 5,
+            marginLeft: .5,
             marginRight: 0.5,
             flexDirection: "column",
             height: 600,
@@ -195,9 +195,9 @@ function SkillForm() {
           alignItems="center"
           fontSize={24}
           sx={{
-            width: "50%",
+            width: "100%",
             marginTop: 1,
-            marginLeft: 5,
+            marginLeft: .5,
             marginRight: 0.5,
             flexDirection: "column",
             height: 600,
