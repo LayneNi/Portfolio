@@ -6,17 +6,17 @@ function ProjectContainer() {
  
     const projects = [
         {
-            title: "Final Project",
-            description: "Final ",
-            tools: "HTML, CSS, JavaScript",
-            link: "https://www.google.com",
-            repo: "Www.github.com",
-            image:require("../../images/white_logo_transparent_background.png")
+            title: "My Friendly Monster",
+            description: "A fun app designed for collecting digital novelty characters. My Friendly Monster is a full-stack react app that utilizes MongoDB. The 90's style theme and layout was accomplished using bootstrap to assist with CSS styling.",
+            tools: "HTML, CSS, JavaScript, React, Bootstrap, MongoDB",
+            link: "https://vast-inlet-40115.herokuapp.com/",
+            repo: "https://github.com/LayneNi/my-friendly-monster",
+            image:require("../../images/monster-dashboard-snippet.PNG")
         },
         {
           title: "Workout Tracker",
           description: "While this application proved to be very challenging, my group was incredible at communicating and staying consistent. We were so proud of the finished product.",
-          tools: "add tools",
+          tools: "HTML, CSS, JavaScript, Bootstrap, MySql",
           link: "https://obscure-peak-77091.herokuapp.com/login",
           repo: "https://github.com/LayneNi/workout-tracker",
           image:require("../../images/Workout-Tracker-Screenshot.PNG")

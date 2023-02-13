@@ -154,15 +154,29 @@ function Header() {
               }}
             ></Typography> */}
             <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-              {pages.map((page) => (
+              
                 <Button
-                  key={page}
-                  onClick={handleCloseNavMenu}
+                  key={"Linkedin"}
+                  href={"https://www.linkedin.com/in/layne-nigro-b91184255/"}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
-                  {page}
+                  LinkedIn
                 </Button>
-              ))}
+                <Button
+                  key={"Github"}
+                  href={"https://github.com/LayneNi"}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                >
+                  Github
+                </Button>
+                <Button
+                  key={"Resumè"}
+                  href={"https://drive.google.com/file/d/1e3Pkw8dDJw-IggkOXnL9SUcBzJk46FIL/view?usp=sharing"}
+                  sx={{ my: 2, color: "white", display: "block" }}
+                >
+                  Resumè
+                </Button>
+             
             </Box>
 
             <Box className="toolbar-avatar" sx={{ flexGrow: 0 }}>
