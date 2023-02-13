@@ -111,6 +111,45 @@ input[type="submit"] {
   margin:1px;
 }
 
+.skillSection{border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 24px;
+  width: 50%;
+  margin-top: 8px;
+  margin-left: 40px;
+  margin-right: 4px;
+  height: 600px;
+  background-color: rgb(46, 59, 85);}
+
+
+.contactMeQuery{
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: 24px;
+  width: 50%;
+  margin-top: 8px;
+  margin-left: 4px;
+  margin-right: 40px;
+  height: 600px;
+  background-color: rgb(46, 59, 85);
+  float: right;
+}
+
+/* .aboutMeClass{
+  margin-left: 80vw;
+  margin-right: 80vw;
+} */
+
 #contactMeText{
   max-height: 450px;
 }
@@ -172,22 +211,18 @@ Footer{
 }
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
-/* .formSection{
+ .formSection{
   background-color: white;
-    height:550px;
+    /* height:550px; */
     width: 492px;
     padding: 23px;
     border-radius: 5px;
-    margin-top: 560px;
-    margin-bottom: 560px;
-    margin-right: 60px;
-    margin-left: 60px;
 }
 
 #formInterior{
   margin: 80px;
-  max-height: 375px;
-} */
+  /* max-height: 375px; */
+} 
 
 
 

@@ -143,8 +143,8 @@ function SkillForm() {
           sx={{
             width: "100%",
             marginTop: 1,
-            marginLeft: .5,
-            marginRight: 0.5,
+            // marginLeft: .5,
+            // marginRight: 0.5,
             flexDirection: "column",
             height: 600,
             backgroundColor: "#2E3B55",
@@ -185,8 +185,8 @@ function SkillForm() {
           </Typography>
         </Box>
         <Box
-          id="Skills"
-          className="skillSection"
+          id="Contact Me"
+          className="contactMeQuery"
           border={1}
           borderColor="white"
           borderRadius="10px"
@@ -195,6 +195,20 @@ function SkillForm() {
           alignItems="center"
           fontSize={24}
           sx={{
+            width: "100%",
+            marginTop: 1,
+            // marginLeft: .5,
+            // marginRight: 0.5,
+            flexDirection: "column",
+            height: 600,
+            backgroundColor: "#2E3B55",
+            "&:hover": {
+              backgroundColor: "#2E3B55",
+              fontSize: 26,
+              boxShadow: 5,
+            },
+          }}
+          md={{
             width: "100%",
             marginTop: 1,
             marginLeft: .5,

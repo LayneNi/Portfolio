@@ -87,7 +87,7 @@ function Header() {
                 fontFamily: "monospace",
                 fontSize: 30,
                 // marginLeft: 5,
-                marginRight: 5,
+                marginRight: 1,
                 fontWeight: 700,
                 letterSpacing: ".3rem",
                 color: "inherit",
@@ -153,7 +153,8 @@ function Header() {
                 textDecoration: "none",
               }}
             ></Typography> */}
-            <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+            <Box 
+            sx={{marginLeft: 1, flexGrow: 1, display: { xs: "none", md: "flex" } }}>
               
                 <Button
                   key={"Linkedin"}
