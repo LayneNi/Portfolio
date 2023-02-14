@@ -107,6 +107,10 @@ input[type="submit"] {
   box-shadow: 0 0 6px 6px rgb(192, 190, 190);
 }
 
+.cards{
+  border: white 1px solid;
+}
+
 #skills{
   display: flex;
   flex-wrap: wrap;
