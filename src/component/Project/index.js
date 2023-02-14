@@ -57,15 +57,13 @@ function ProjectContainer() {
 
   return (
 
-    <>   <Box 
+    <>   <Box className="projectBox"
     border={1} borderColor="white" borderRadius="10px"
     display="flex" justifyContent="center" alignItems="center"
     fontSize={24}
       sx={{
         width: '100',
         marginTop: 1,
-        marginLeft: 5,
-        marginRight: 5,
         // height: 900,
         display: 'flex',
         flexWrap: 'wrap',
@@ -84,9 +82,8 @@ function ProjectContainer() {
       {/* <div sx={{display:'inline-block'}}> */}
 <Typography class= "neonText"
     color= "White"
-    marginBottom={30}
     > 
-    {/* <h1>This is my project section</h1> */}
+    {/* <h1>Projects</h1> */}
 </Typography>
 {/* </div> */}
     {projects.map(project => <Project key={project.title} {...project} /> )}
