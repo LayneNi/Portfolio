@@ -49,7 +49,7 @@ function Header() {
         position="static"
         style={{
           background: "#2E3B55",
-          padding: 10,
+          padding: ".5%",
         }}
       >
         <Container maxWidth="xl">
@@ -60,16 +60,21 @@ function Header() {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+
+              }}
+              sx={{
+                justifyContent: 'flex-start'
               }}
               className="icon-btn"
-              sx={{ width: "50%" }}
+              // sx={{ width: "50%" }}
             >
               <Box
                 sx={{
-                  width: "50%",
-                  height: "50%",
+                  width: "60%",
+                  height: "60%",
+                  // justifyContent: "flex-start",
                   maxHeight: { xs: 233, md: 167 },
-                  maxWidth: { xs: 350, md: 250 },
+                  // maxWidth: { xs: 350, md: 250 },
                 }}
                 component="img"
                 alt="Layne Profile Picture"
@@ -87,7 +92,7 @@ function Header() {
                 fontFamily: "monospace",
                 fontSize: 30,
                 // marginLeft: 5,
-                marginRight: 1,
+                marginRight: "2%",
                 fontWeight: 700,
                 letterSpacing: ".3rem",
                 color: "inherit",
@@ -127,13 +132,22 @@ function Header() {
                 onClose={handleCloseNavMenu}
                 sx={{
                   display: { xs: "block", md: "none" },
+                  padding: "0%"
                 }}
               >
-                {pages.map((page) => (
-                  <MenuItem key={page} onClick={handleCloseNavMenu}>
-                    <Typography textAlign="center">{page}</Typography>
+                
+                <MenuItem><Button className={"drop-down-text"} key={"Linkedin"} href={"https://www.linkedin.com/in/layne-nigro-b91184255/"}>
+                    <Typography textAlign="center">LinkedIn</Typography></Button>
                   </MenuItem>
-                ))}
+
+                  <MenuItem><Button className={"drop-down-text"} key={"Github"} href={"https://github.com/LayneNi"}>
+                    <Typography textAlign="center">Github</Typography></Button>
+                  </MenuItem>
+
+                  <MenuItem><Button className={"drop-down-text"} key={"Resumè"} href={"https://drive.google.com/file/d/1e3Pkw8dDJw-IggkOXnL9SUcBzJk46FIL/view?usp=sharing"}>
+                    <Typography textAlign="center">Resumè</Typography></Button>
+                  </MenuItem>
+                
               </Menu>
             </Box>
             {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}

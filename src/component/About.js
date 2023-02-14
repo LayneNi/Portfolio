@@ -10,7 +10,7 @@ function About(){
     display="flex" justifyContent="center" alignItems="center"
     fontSize={24}
       sx={{
-        width: '100%',
+        // width: '100%',
         marginTop: 1,
         // marginRight: 5,
         height: 300,

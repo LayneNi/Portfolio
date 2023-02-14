@@ -141,7 +141,7 @@ function SkillForm() {
           alignItems="center"
           fontSize={24}
           sx={{
-            width: "100%",
+            // width: "100%",
             marginTop: 1,
             // marginLeft: .5,
             // marginRight: 0.5,
@@ -195,7 +195,7 @@ function SkillForm() {
           alignItems="center"
           fontSize={24}
           sx={{
-            width: "100%",
+            // width: "100%",
             marginTop: 1,
             // marginLeft: .5,
             // marginRight: 0.5,
