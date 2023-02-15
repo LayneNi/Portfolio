@@ -126,6 +126,7 @@ function SkillForm() {
       link: "https://dev.mysql.com/doc/",
       icon: <SiMysql className="iconHover" />
     },
+    
   ];
   return (
     <>
@@ -156,7 +157,7 @@ function SkillForm() {
           }}
         >
           <Typography class="neonText" color="White" >
-            <h1>Skills</h1>
+            <h1 id="skillHeader">Skills</h1>
           </Typography>
           <Typography
             display={"flex"}
@@ -183,7 +184,9 @@ function SkillForm() {
             </Typography>
             })}
           </Typography>
+          
         </Box>
+        
         <Box
           id="Contact Me"
           className="contactMeQuery"

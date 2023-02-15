@@ -10,6 +10,7 @@ App{
   font-size: 14px;
 }
 
+
 #submitButton:hover {
   box-shadow: 0 0 6px 6px #ffa500;
   /* filter: drop-shadow(1px 1px 1px #ffa500); */
@@ -133,19 +134,22 @@ input[type="submit"] {
   margin:1px;
 }
 
-.skillSection{border: 1px solid white;
+
+.skillSection{
+  border: 1px solid white;
   border-radius: 10px;
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  font-size: 24px;
+  /* font-size: 24px; */
   width: 50%;
   margin-top: 8px;
   margin-left: 2%;
   margin-right: .25%;
   height: 600px;
+  flex-wrap: wrap;
   background-color: rgb(46, 59, 85);}
 
   .projectBox{
@@ -189,14 +193,20 @@ input[type="submit"] {
   border-radius: 10%;
 }
 
+#skillHeader{
+  font-size: 110%;
+    margin-top: -139%;
+}
+
 .skillTextSection{
   color: white;
   font-weight: bold;
   /* display: flex; */
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   margin: 30px;
+  padding-left: 8px;
 }
 
 .background-color{
@@ -865,7 +875,7 @@ body {
 @media screen and (max-width:1427px) {
   .contactMeQuery,
   .skillSection{
-    height: 100%;
+    height: fit-content !important;
      margin-left: 2% !important;
     margin-right: 2% !important; 
     justify-content: center;
@@ -887,7 +897,10 @@ body {
       /* height: fit-content; */
       justify-content: center;
     }
-
+    #formInterior{
+      margin: 0%;
+    }
+    
     .formSection{
       /* margin: 15%; */
       /* margin-top: -2%; */
@@ -899,6 +912,7 @@ body {
       flex-direction: column;
       /* height: fit-content; */
       justify-content: center;
+      margin-bottom: 10%;
     }
 
     .wrapper{
@@ -911,6 +925,20 @@ body {
 order: 2;
     }
 
+    #skillHeader{
+      font-size: 86%;
+      margin: 0%;
+      margin-top: 33%;
+    }
+    
+    #contactMeText{
+      font-size: 160%;
+      margin-top: 8%;
+    }
+
+.skillTextSection{
+  flex-direction: column;
+}
 
     .projectBox{
   
