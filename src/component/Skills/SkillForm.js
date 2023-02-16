@@ -11,8 +11,8 @@ import IconButton from "@mui/material/IconButton";
 import { IconContext } from "react-icons";
 import { AiFillHtml5, AiFillFileText } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
-import { SiJavascript, SiMysql } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { SiJavascript, SiMysql, SiMongodb, SiMaterialui } from "react-icons/si";
+import { FaNodeJs, FaReact,FaBootstrap } from "react-icons/fa";
 
 const haiku = "HTML \n  \n CSS \n \n JavaScript \n  \n NodeJs \n \n MySql";
 const haiku2 = "React \n  \n NoSql \n \n JavaScript \n  \n NodeJs \n \n MySql";
@@ -126,7 +126,26 @@ function SkillForm() {
       link: "https://dev.mysql.com/doc/",
       icon: <SiMysql className="iconHover" />
     },
-    
+    {
+      text: "MongoDB",
+      link: "https://www.mongodb.com/",
+      icon: <SiMongodb className="iconHover" />
+    },
+    {
+      text: "ReactJS",
+      link: "https://reactjs.org/",
+      icon: <FaReact className="iconHover" />
+    },    
+    {
+      text: "Bootstrap",
+      link: "https://getbootstrap.com/",
+      icon: <FaBootstrap className="iconHover" />
+    },
+    {
+      text: "Material UI",
+      link: "https://mui.com/",
+      icon: <SiMaterialui className="iconHover" />
+    }
   ];
   return (
     <>

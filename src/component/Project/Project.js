@@ -13,11 +13,11 @@ function Project({title, description, tools, link, repo,image}) {
   return (
 
     <>
-    <Card id='Projects' className='cards' sx={{ 
+    <Card id='Projects' className='cards' style={{ 
     maxWidth: 450,
     width: 350,
     minHeight: 600 ,
-    margin: 10,
+    // margin: 10,
     backgroundColor: '#13151a',
     color: 'white'
     
@@ -41,7 +41,7 @@ function Project({title, description, tools, link, repo,image}) {
            </Typography>
         </Typography>
       </CardContent>
-      <CardActions 
+      <CardActions className='cardBtnSection'
       sx={{justifyContent: 'center'}}
       >
         <Button className='cardBtns' size="small" href={link}>Live Website</Button>

@@ -110,6 +110,7 @@ input[type="submit"] {
 
 .cards{
   border: white 1px solid;
+  margin: 3%;
 }
 
 #skills{
@@ -190,6 +191,7 @@ input[type="submit"] {
   flex-direction: column;
   justify-content: center;
   margin: 30px;
+  margin-left: 2%;
   border-radius: 10%;
 }
 
@@ -941,10 +943,23 @@ order: 2;
   flex-direction: column;
 }
 
-    .projectBox{
-  
-    }
+.cardBtns{
+  text-align: center;
+}
 
+.cards{
+  height: fit-content !important;
+  min-height: 0% !important;
+  padding-bottom: 3%;
+}
+.cardBtnSection{
+  padding: 7%;
+  padding-right: 9%;
+}
+
+.skillText{
+  margin-left: 0%;
+}
     .icon-btn{
       width: 50%;
       /* justify-content: flex-start; */

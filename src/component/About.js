@@ -27,7 +27,7 @@ function About(){
     color= "White"
     marginBottom={30}
     > 
-    <h1>My name is Layne Nigro and I am a highly motivated fullstack web developer. I have a passion for functional design and I love working with computers.</h1>
+    <h1>My name is Layne Nigro and I am a highly motivated full-stack web developer. I have a passion for functional design and I love working with computers.</h1>
 </Typography>
 </Box>
         </>
