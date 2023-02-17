@@ -11,7 +11,7 @@ function MainCard() {
   
       <About/>
       <ProjectContainer/>
-      <style>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Montserrat&family=Pinyon+Script&family=Style+Script&display=swap');
 </style>
 
