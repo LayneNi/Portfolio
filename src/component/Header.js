@@ -144,7 +144,7 @@ function Header() {
                     <Typography textAlign="center">Github</Typography></Button>
                   </MenuItem>
 
-                  <MenuItem><Button className={"drop-down-text"} key={"Resumè"} href={"https://drive.google.com/file/d/1e3Pkw8dDJw-IggkOXnL9SUcBzJk46FIL/view?usp=sharing"}>
+                  <MenuItem><Button className={"drop-down-text"} key={"Resumè"} href={"https://drive.google.com/file/d/1PGmYDWbv301wj9SKqoxkgBR0umCqT_D1/view?usp=sharing"}>
                     <Typography textAlign="center">Resumè</Typography></Button>
                   </MenuItem>
                 
@@ -186,7 +186,7 @@ function Header() {
                 </Button>
                 <Button
                   key={"Resumè"}
-                  href={"https://drive.google.com/file/d/1e3Pkw8dDJw-IggkOXnL9SUcBzJk46FIL/view?usp=sharing"}
+                  href={"https://drive.google.com/file/d/1PGmYDWbv301wj9SKqoxkgBR0umCqT_D1/view?usp=sharing"}
                   sx={{ my: 2, color: "white", display: "block" }}
                 >
                   Resumè

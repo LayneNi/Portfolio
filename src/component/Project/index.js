@@ -38,12 +38,12 @@ function ProjectContainer() {
       image:require("../../images/Weather-Dashboard-Screenshot.PNG")
   },
   {
-    title: "Team Profile Generator",
-    description: "I created this project while first learning NodeJs and i had a blast creating it. The process of creating a web page dynamically based on data inputed in the form of answers to specific questions was very interesting. This application helped me understand how limitless the potential of web design is. This is a backend web app and therefore has a video walkthrough link instead of a live deployment.",
-    tools: "HTML, CSS, JavaScript, NodeJs",
-    link: "https://drive.google.com/file/d/1Rj59TGVcLgemtH40CkBHlVdJ5C8-xO8k/view",
-    repo: "https://github.com/LayneNi/Team-Profile-Generator",
-    image:require("../../images/Team-profile-builder-screenshot.PNG")
+    title: "Quote Generator",
+    description: "I created this quote generator after I finished my program with the University of Pennsylvania as a hobby project to inspire myself and others. Personally I feel there is a lot to be learned from studying the words of successful people of all kinds. This quote generator is meant to supply wisdom to the user based on specific topics.",
+    tools: "HTML, CSS, JavaScript",
+    link: "https://layneni.github.io/Quote-Generator/",
+    repo: "https://github.com/LayneNi/Quote-Generator",
+    image:require("../../images/quote-generator-screenshot.PNG")
 },
 {
   title: "Pokemon Quiz",
