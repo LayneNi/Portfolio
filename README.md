@@ -16,7 +16,13 @@ This is my portfolio page, created in React with the assistance of Material-ui s
 
 ## Usage
 
-Screenshot: ![Demo screenshot](./src/images/portfolio-screenshot-1.PNG)
+Desktop View Screenshot: 
+
+![Demo screenshot](./src/images/portfolio-official-screenshot.PNG)
+
+Mobile View Screenshot: 
+
+![Mobile View Demo screenshot](./src/images/portfolio-mobile-view-screenshot.PNG)
 
 Deployed Link: (https://layneni.github.io/portfolio/)
 
