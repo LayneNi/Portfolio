@@ -45,5 +45,6 @@ Github Username: LayneNi
 
 Githin Profile link: https://github.com/LayneNi
 
+Resumè:https://drive.google.com/file/d/1WH0I1p6wYMH6VL4StXjVxPHG_Qs0JJrs/view?usp=sharing
 
 For any additional questions please reach out to me via email at Laynenigro@gmail.com
