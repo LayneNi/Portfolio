@@ -8,8 +8,13 @@ App{
 
 #cardText{
   font-size: 14px;
+  margin-top: 2%;
 }
 
+#aboutMeText{
+  margin-left: 1%;
+  margin-right: 1%;
+}
 
 #submitButton:hover {
   box-shadow: 0 0 6px 6px #ffa500;
