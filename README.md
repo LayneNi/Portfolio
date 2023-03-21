@@ -5,7 +5,7 @@
 
 ## Description
 
-This is my portfolio page, created in React with the assistance of Material-ui styles. I had so much fun creating this and i cannot wait to continue adding to it and building upon what ive created.
+This is my portfolio page, created in React with the assistance of Material-ui styles. This application was the first time that I have ever created using an application using react and material UI. Both of these tools were very useful and streamlined the creation of this application very much. I had so much fun creating this and I cannot wait to continue adding to it and building upon what I've created.
 
 
 ## Table of Contents
