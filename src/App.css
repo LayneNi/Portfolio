@@ -531,28 +531,6 @@ body {
 }
 
 
-@media screen and (max-width:600px) {
-  .skillForm{
-    flex-direction: column;
-   align-items: center
-  }
-  .toolbar{
-    justify-content: center;
-  }
-  .toolbar > .icon-btn{
-    order: 2;
-    padding: 0 !important;
-  }
-  .toolbar > .toolbar-box{
-    order: 1;
-    width: 25%;
-  }
-  .toolbar > .toolbar-avatar{
-    order: 3
-  }
-}
-
-
 
 @-webkit-keyframes yellow-shadow {
   0% {
@@ -880,6 +858,10 @@ body {
   }
 }
 
+
+
+
+
 @media screen and (max-width:1427px) {
   .contactMeQuery,
   .skillSection{
@@ -908,6 +890,25 @@ body {
     #formInterior{
       margin: 0%;
     }
+
+    .skillForm{
+      flex-direction: column;
+     align-items: center
+    }
+    .toolbar{
+      justify-content: center;
+    }
+    .toolbar > .icon-btn{
+      order: 2;
+      padding: 0 !important;
+    }
+    .toolbar > .toolbar-box{
+      order: 1;
+      width: 25%;
+    }
+    .toolbar > .toolbar-avatar{
+      order: 3
+    }
     
     .formSection{
       /* margin: 15%; */
@@ -926,12 +927,9 @@ body {
     .wrapper{
       flex-direction: row;
       flex-wrap: wrap;
-      padding: 7%;
+      padding: 1%;
     }
 
-    .iconHover{
-order: 2;
-    }
 
     #skillHeader{
       font-size: 86%;
@@ -970,4 +968,33 @@ order: 2;
       /* justify-content: flex-start; */
       justify-content: flex-start !important;
     }
+}
+@media screen and (max-width:600px) {
+  .skillForm{
+    flex-direction: column;
+   align-items: center
+  }
+  .wrapper{
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 4%;
+  }
+  .toolbar{
+    justify-content: center;
+  }
+  .toolbar > .icon-btn{
+    order: 2;
+    padding: 0 !important;
+  }
+  .toolbar > .toolbar-box{
+    order: 1;
+    width: 25%;
+  }
+  .toolbar > .toolbar-avatar{
+    order: 3
+  }
+  .iconHover{
+    order: 2;
+        }
+    
 }

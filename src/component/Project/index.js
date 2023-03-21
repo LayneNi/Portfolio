@@ -31,7 +31,7 @@ function ProjectContainer() {
     },
     {
       title: "Weather Api",
-      description: "Creating this application was very challenging when I first started it. Despite having learned a lot since its creation that would streamlined the development process quite a bit, I am still very impressed by what i was able to create with the knowledge i had at the time. ",
+      description: "Creating this application was very challenging when I first started it. Despite how daunting this task initially seemed, I loved creating this weather dashboard. When I first started this application I was just learning how to utilize data from a third party API. I quickly got the hang of working with an API and I had so much fun utilizing the data. This was the project that showed me the possibilities are endless when using third party APIs. The design on desktop and mobile is meant to be simple resembing modern weather applications.",
       tools: "HTML, CSS, JavaScript",
       link: "https://layneni.github.io/Weather-API-Challenge/",
       repo: "https://github.com/LayneNi/Weather-API-Challenge",
@@ -39,7 +39,7 @@ function ProjectContainer() {
   },
   {
     title: "Quote Generator",
-    description: "I created this quote generator after I finished my program with the University of Pennsylvania as a hobby project to inspire myself and others. Personally I feel there is a lot to be learned from studying the words of successful people of all kinds. This quote generator is meant to supply wisdom to the user based on specific topics.",
+    description: "I created this quote generator, after I finished my program with the University of Pennsylvania, as a hobby project intedned to inspire myself and others. Personally I feel there is a lot to be learned from studying the words of successful people of all kinds. This quote generator is meant to supply wisdom to the user based on specific topics. The idea for the design of this application is to be simple and have very few items on the screen in order to bring the users focus to the quote.",
     tools: "HTML, CSS, JavaScript",
     link: "https://layneni.github.io/Quote-Generator/",
     repo: "https://github.com/LayneNi/Quote-Generator",
@@ -47,7 +47,7 @@ function ProjectContainer() {
 },
 {
   title: "Pokemon Quiz",
-  description: "This was my first gamified web application that I ever created. This project seems so simple looking back on it but I still feel it is worth showing what I was able to create at the time. There are several moving parts to this app and they worked together seemlessly. This was my first time implicating local storage to an app and it was very fun to be able to save players high scores. The processes used to create this app have proven to be very useful in applications I have created since then. ",
+  description: "This was my first gamified web application that I ever created. Creating this project was my first time implicating local storage to an app and while it was very fun to be able to save players high scores, I noticed how local storage can be utilized in other applications. This project also introduced me to process such as dynamically generating buttons onto a screen as well as using set interval to add timing functionality. The processes used to create this fairly simple application can be used on a larger scale to create more robust applications.",
   tools: "HTML, CSS, JavaScript",
   link: "https://layneni.github.io/quiz-challenge/",
   repo: "https://github.com/LayneNi/quiz-challenge",

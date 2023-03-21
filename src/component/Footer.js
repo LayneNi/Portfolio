@@ -15,6 +15,7 @@ const handleOpenMail = (event) => {
       <>
       
         <footer>
+          
         <div class="wrapper" id="neon" >
         <IconContext.Provider value={{ color: 'white', size: '40px' }}>
         <IconButton className="iconHover"  sx={{ p: 0 }}>
@@ -22,11 +23,12 @@ const handleOpenMail = (event) => {
         </IconButton>
         </IconContext.Provider>
         <IconContext.Provider value={{ color: 'white', size: '40px'}}>
-        <IconButton className="iconHover" href="https://drive.google.com/file/d/1WH0I1p6wYMH6VL4StXjVxPHG_Qs0JJrs/view?usp=sharing" sx={{ p: 0 }}>
-        <AiFillFileText/>
+        <IconButton  className="iconHover" href="https://drive.google.com/file/d/1WH0I1p6wYMH6VL4StXjVxPHG_Qs0JJrs/view?usp=sharing" sx={{ p: 0 }}>
+        <AiFillFileText class="footerIcon"/>
         </IconButton>
         
         </IconContext.Provider>
+    <section  class="wrapper" id="portText">
     <div class="main-div main-div1">
       <h1>Layne</h1>
     </div>
@@ -36,6 +38,7 @@ const handleOpenMail = (event) => {
     <div class="main-div main-div3">
       <h1>Portfolio</h1>
     </div>
+    </section>
     <IconContext.Provider value={{ color: 'white', size: '40px' }}>
     <IconButton className="iconHover" href="https://github.com/LayneNi" sx={{ p: 0 }}>
     <GoMarkGithub/>
