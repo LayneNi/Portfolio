@@ -977,7 +977,7 @@ body {
   .wrapper{
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 4%;
+    padding: 8%;
   }
   .toolbar{
     justify-content: center;

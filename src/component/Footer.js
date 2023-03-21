@@ -28,7 +28,6 @@ const handleOpenMail = (event) => {
         </IconButton>
         
         </IconContext.Provider>
-    <section  class="wrapper" id="portText">
     <div class="main-div main-div1">
       <h1>Layne</h1>
     </div>
@@ -38,7 +37,6 @@ const handleOpenMail = (event) => {
     <div class="main-div main-div3">
       <h1>Portfolio</h1>
     </div>
-    </section>
     <IconContext.Provider value={{ color: 'white', size: '40px' }}>
     <IconButton className="iconHover" href="https://github.com/LayneNi" sx={{ p: 0 }}>
     <GoMarkGithub/>
