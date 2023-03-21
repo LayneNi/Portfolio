@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a209de5d.css",
-    "main.js": "/portfolio/static/js/main.059a5e89.js",
+    "main.css": "/portfolio/static/css/main.2ea91860.css",
+    "main.js": "/portfolio/static/js/main.f7c9291d.js",
     "static/media/profilePic.JPG": "/portfolio/static/media/profilePic.26c3d7c26a0b30dbed1a.JPG",
     "static/media/Weather-Dashboard-Screenshot-1.PNG": "/portfolio/static/media/Weather-Dashboard-Screenshot-1.ef3307e9860dba778895.PNG",
     "static/media/monster-dashboard-snippet.PNG": "/portfolio/static/media/monster-dashboard-snippet.2ae51fa9d477fd85c8b6.PNG",
@@ -12,11 +12,11 @@
     "static/media/quote-generator-screenshot.PNG": "/portfolio/static/media/quote-generator-screenshot.d34d0d6e5cabf06dfa6e.PNG",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.a209de5d.css.map": "/portfolio/static/css/main.a209de5d.css.map",
-    "main.059a5e89.js.map": "/portfolio/static/js/main.059a5e89.js.map"
+    "main.2ea91860.css.map": "/portfolio/static/css/main.2ea91860.css.map",
+    "main.f7c9291d.js.map": "/portfolio/static/js/main.f7c9291d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a209de5d.css",
-    "static/js/main.059a5e89.js"
+    "static/css/main.2ea91860.css",
+    "static/js/main.f7c9291d.js"
   ]
 }
